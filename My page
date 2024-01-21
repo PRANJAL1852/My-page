@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pranjal Srivastava - Web Developer</title>
+  <style>
+    body {
+      font-family: 'Italiana', 'Arial', sans-serif;
+      margin: 20px;
+      background-color: skyblue;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #3498db;
+    }
+
+    section {
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 20px auto;
+      max-width: 600px;
+      text-align: left;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 20px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Pranjal Srivastava</h1>
+    <p>Web Developer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm Pranjal Srivastava, a 12-year-old web developer who loves web development and gaming. My favorite color is
+      sky blue, and I enjoy the simplicity of Italian fonts. I'm a proud supporter of the Indian cricket team, and in IPL,
+      I cheer for KKR, with Shreyas Iyer being my favorite player. "Shayad" by Arijit Singh is my go-to song. One of my
+      life's biggest achievements is starting web development at a young age. My motto is "Look Back, Act Better, Then
+      action takes its seat." You can reach out to me at yoyopranjal4@gmail.com.
+    </p>
+  </section>
+
+  <section>
+    <h2>Additional Information</h2>
+    <ul>
+      <li><strong>Programming Languages:</strong> Java</li>
+      <li><strong>Gaming Preferences:</strong> Minecraft on PC and laptop</li>
+      <li><strong>Web Development Tools:</strong> Visual Studio Code</li>
+      <li><strong>Future Aspirations:</strong> Pursuing Engineering</li>
+      <li><strong>Preferred Game Platform:</strong> PC and laptop</li>
+      <li><strong>Daily Routine:</strong> Wake up, motivate, study, lunch, rest, gaming, sleep</li>
+      <li><strong>Favorite Web Development Project:</strong> None specific</li>
+      <li><strong>Inspirations:</strong> None specific</li>
+      <li><strong>Learning Resources:</strong> School</li>
+      <li><strong>Fun Fact:</strong> No specific fun fact</li>
+      <!-- Additional Information -->
+      <li><strong>Web Development Achievements:</strong> None</li>
+      <li><strong>Collaboration:</strong> No collaborations</li>
+      <li><strong>Online Presence:</strong> None</li>
+      <li><strong>Coding Habits:</strong> Focus on coding</li>
+      <li><strong>Learning Approach:</strong> Search for information</li>
+      <li><strong>Code Review:</strong> No code reviews</li>
+      <li><strong>Web Development Community:</strong> Not a part of any community</li>
+      <li><strong>Version Control:</strong> No use of version control systems</li>
+      <li><strong>Tech Conferences or Meetups:</strong> No attendance</li>
+      <li><strong>Web Development Trends:</strong> No specific interests</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Pranjal Srivastava. Created with ❤️</p>
+  </footer>
+
+</body>
+
+</html>
