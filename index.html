@@ -1,128 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pranjal Srivastava - Web Developer</title>
   <style>
     body {
-      font-family: 'Italiana', 'Arial', sans-serif;
-      margin: 20px;
-      background: linear-gradient(45deg, yellow, blue);
-      color: black;
-      text-align: right;
-    }
-
-    h1 {
-      color: #3498db;
-    }
-
-    section {
-      background-color: white;
-      padding: 15px;
-      border-radius: 10px;
-      margin: 20px auto;
-      max-width: 600px;
-      text-align: left;
-      position: relative;
-      border: 2px solid black;
-      border-top-left-radius: 0;
-      border-top-right-radius: 20px;
-      border-bottom-left-radius: 20px;
-      border-bottom-right-radius: 0;
-    }
-
-    ul {
-      list-style: none;
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      margin: 0;
       padding: 0;
     }
 
-    li {
-      margin-bottom: 10px;
+    header, section, footer {
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #d9534f;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #c9302c;
     }
 
     footer {
-      margin-top: 20px;
-      color: #777;
       text-align: center;
-    }
-
-    .youtube-button {
-      background-color: red;
-      color: white;
-      padding: 10px;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin-top: 10px;
+      font-size: 14px;
+      color: #888;
     }
   </style>
 </head>
-
 <body>
-
-  <h1>Pranjal Srivastava</h1>
-  <p>Web Developer</p>
-
-  <section>
+  <header>
+    <h1>Welcome to my Website!</h1>
+    <img src="https://raw.githubusercontent.com/your-username/your-repository/main/path/to/your-image.jpg" alt="Pranjal Srivastava">
+  </header>
+  
+  <section id="about">
     <h2>About Me</h2>
-    <p>
-      Hi, I'm Pranjal Srivastava, a 12-year-old web developer who loves web development and gaming. My favorite color is
-      sky blue, and I enjoy the simplicity of Italian fonts. I'm a proud supporter of the Indian cricket team, and in IPL,
-      I cheer for KKR, with Shreyas Iyer being my favorite player. "Shayad" by Arijit Singh is my go-to song. One of my
-      life's biggest achievements is starting web development at a young age. My motto is "Look Back, Act Better, Then
-      action takes its seat." You can reach out to me at yoyopranjal4@gmail.com.
-    </p>
+    <p>Passionate web developer with a love for coding and a penchant for problem-solving. Outside of the coding realm, I find joy in melodies, with 'Shayad' by Arijit Singh being a constant favorite. A cricket enthusiast, I proudly support Team India and in the IPL, my allegiance lies with KKR, with Shreyas Iyer holding a special place as my favorite player.</p>
   </section>
 
-  <section>
-    <h2>Additional Information</h2>
-    <ul>
-      <li><strong>Programming Languages:</strong> Java</li>
-      <li><strong>Gaming Preferences:</strong> Minecraft on PC and laptop</li>
-      <li><strong>Web Development Tools:</strong> Visual Studio Code</li>
-      <li><strong>Future Aspirations:</strong> Pursuing Engineering</li>
-      <li><strong>Preferred Game Platform:</strong> PC and laptop</li>
-      <li><strong>Daily Routine:</strong> Wake up, motivate, study, lunch, rest, gaming, sleep</li>
-      <li><strong>Favorite Web Development Project:</strong> None specific</li>
-      <li><strong>Inspirations:</strong> None specific</li>
-      <li><strong>Learning Resources:</strong> School</li>
-      <li><strong>Fun Fact:</strong> No specific fun fact</li>
-      <!-- Additional Information -->
-      <li><strong>Web Development Achievements:</strong> None</li>
-      <li><strong>Collaboration:</strong> No collaborations</li>
-      <li><strong>Online Presence:</strong> None</li>
-      <li><strong>Coding Habits:</strong> Focus on coding</li>
-      <li><strong>Learning Approach:</strong> Search for information</li>
-      <li><strong>Code Review:</strong> No code reviews</li>
-      <li><strong>Web Development Community:</strong> Not a part of any community</li>
-      <li><strong>Version Control:</strong> No use of version control systems</li>
-      <li><strong>Tech Conferences or Meetups:</strong> No attendance</li>
-      <li><strong>Web Development Trends:</strong> No specific interests</li>
-      <!-- Java Features -->
-      <li><strong>Java Experience:</strong> 2 years</li>
-      <li><strong>Notable Java Projects:</strong> None shared</li>
-      <li><strong>Java Skill Set:</strong> Java SE, Java EE, Spring Framework, Hibernate</li>
-      <li><strong>Favorite Java Feature:</strong> None specified</li>
-      <li><strong>Java Learning Approach:</strong> YouTube, Google</li>
-      <li><strong>Java Development Tools:</strong> Visual Studio Code</li>
-      <li><strong>Java Challenges:</strong> Faced errors but resolved them</li>
-      <li><strong>Java Community Engagement:</strong> None</li>
-      <li><strong>Future Java Goals:</strong> Increase Java knowledge and work on Java</li>
-      <li><strong>Java Project Plans:</strong> None specified</li>
-    </ul>
-
-    <!-- YouTube Button -->
-    <a href="https://youtube.com/@PRANJAL1852?si=v4nCBJ8nv7RF_jWY" class="youtube-button" target="_blank">Visit My YouTube Channel</a>
+  <section id="contact">
+    <h2>Contact</h2>
+    <a href="https://youtube.com/@PRANJAL1852?si=v4nCBJ8nv7RF_jWY" class="button">YouTube Channel</a>
+    <!-- Add other contact details as needed -->
   </section>
 
   <footer>
-    <p>&copy; 2024 Pranjal Srivastava. Created with ❤️</p>
+    <p>&copy; 2024 Pranjal Srivastava - Web Developer</p>
   </footer>
-
 </body>
-
 </html>
