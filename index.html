@@ -7,67 +7,101 @@
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background-color: #f0f0f0;
-      color: #333;
+      background-color: #f8f9fa;
+      color: #343a40;
       margin: 0;
       padding: 0;
     }
 
-    header, section, footer {
+    header, footer {
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1, h2, footer p {
+      color: #343a40;
+      margin-bottom: 10px;
+    }
+
+    section {
       padding: 20px;
       margin-bottom: 20px;
-      background-color: #fff;
       border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      animation: colorChange 5s infinite alternate; /* Apply animation */
     }
 
-    h1, h2 {
-      color: #333;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 50%;
-      margin-top: 20px;
+    @keyframes colorChange {
+      0% {
+        background-color: rgb(255, 0, 0); /* Red */
+      }
+      50% {
+        background-color: rgb(0, 255, 0); /* Green */
+      }
+      100% {
+        background-color: rgb(0, 0, 255); /* Blue */
+      }
     }
 
     a.button {
       display: inline-block;
       padding: 10px 20px;
-      background-color: #d9534f;
-      color: #fff;
+      background-color: #007bff;
+      color: #ffffff;
       text-decoration: none;
       border-radius: 5px;
       transition: background-color 0.3s;
     }
 
     a.button:hover {
-      background-color: #c9302c;
+      background-color: #0056b3;
+    }
+
+    .skills {
+      margin-top: 20px;
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills ul li {
+      margin-bottom: 10px;
     }
 
     footer {
       text-align: center;
       font-size: 14px;
-      color: #888;
+      color: #888888;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to my Website!</h1>
-    <img src="IMG20231231184344.jpg" alt="Pranjal Srivastava">
+    <h1>Pranjal Srivastava</h1>
+    <p>Web Developer</p>
   </header>
   
   <section id="about">
     <h2>About Me</h2>
-    <p>Passionate web developer with a love for coding and a penchant for problem-solving. Outside of the coding realm, I find joy in melodies, with 'Shayad' by Arijit Singh being a constant favorite. A cricket enthusiast, I proudly support Team India and in the IPL, my allegiance lies with KKR, with Shreyas Iyer holding a special place as my favorite player.</p>
+    <p>I'm a passionate web developer with a love for coding and a knack for problem-solving. Outside of coding, I enjoy listening to music and following cricket. Go Team India!</p>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <a href="https://youtube.com/@PRANJAL1852?si=v4nCBJ8nv7RF_jWY" class="button">YouTube Channel</a>
-    <!-- Add other contact details as needed -->
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java</li>
+      <li>CSS</li>
+      <li>HTML</li>
+      <li>Problem Solving</li>
+      <li>JavaScript</li>
+      <li>Responsive Web Design</li>
+      <li>Version Control (e.g., Git)</li>
+      <!-- Add more skills as needed -->
+    </ul>
   </section>
 
   <footer>
