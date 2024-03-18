@@ -61,14 +61,37 @@
     }
 
     .image-container {
-      height: 200px; /* Adjust the height as per your requirement */
-      overflow: hidden; /* Hide overflow if image is larger */
+      border: 2px solid rgb(128, 0, 128); /* Purple */
+      border-radius: 8px; /* Rounded corners */
+      overflow: hidden;
+      margin-top: 20px;
+    }
+
+    .photo-button {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background-color: rgb(128, 0, 128); /* Purple */
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .photo-button:hover {
+      background-color: rgb(255, 0, 0); /* Red */
+    }
+
+    .photo-frame {
+      width: 80%;
+      margin: auto;
     }
 
     img {
-      width: 100%; /* Ensure the image covers the container */
-      height: auto; /* Maintain aspect ratio */
-      border-radius: 8px; /* Rounded corners */
+      width: 100%;
+      height: auto;
     }
 
     a.button {
@@ -116,8 +139,12 @@
     <p>I'm a passionate web developer with a love for coding and a knack for problem-solving. Outside of coding, I enjoy listening to music and following cricket. Go Team India!</p>
   </section>
 
-  <div class="image-container">
-    <img src="IMG20231231184344.jpg" alt="Pranjal Srivastava">
+  <button class="photo-button" onclick="showPhoto()">My Photo</button>
+  
+  <div class="image-container" id="photo-container" style="display: none;">
+    <div class="photo-frame">
+      <img id="my-photo" src="IMG20231231184344.jpg" alt="Pranjal Srivastava">
+    </div>
   </div>
   
   <section class="skills">
@@ -137,5 +164,16 @@
   <footer>
     <p>&copy; 2024 Pranjal Srivastava - Web Developer</p>
   </footer>
+
+  <script>
+    function showPhoto() {
+      var photoContainer = document.getElementById("photo-container");
+      if (photoContainer.style.display === "none") {
+        photoContainer.style.display = "block";
+      } else {
+        photoContainer.style.display = "none";
+      }
+    }
+  </script>
 </body>
 </html>
