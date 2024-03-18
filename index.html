@@ -60,10 +60,15 @@
       }
     }
 
+    .image-container {
+      height: 200px; /* Adjust the height as per your requirement */
+      overflow: hidden; /* Hide overflow if image is larger */
+    }
+
     img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
+      width: 100%; /* Ensure the image covers the container */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 8px; /* Rounded corners */
     }
 
     a.button {
@@ -111,7 +116,9 @@
     <p>I'm a passionate web developer with a love for coding and a knack for problem-solving. Outside of coding, I enjoy listening to music and following cricket. Go Team India!</p>
   </section>
 
-  <img src="IMG20231231184344.jpg" alt="Pranjal Srivastava">
+  <div class="image-container">
+    <img src="IMG20231231184344.jpg" alt="Pranjal Srivastava">
+  </div>
   
   <section class="skills">
     <h2>Skills</h2>
